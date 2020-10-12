@@ -28,8 +28,7 @@
             width: 100%;
             height: 100%;
             background-size: cover;
-            background-image: url('main_background.jpg');
-            background-repeat: no-repeat;
+            background-color:blueviolet
         }
         #input{
             width:600px;
@@ -249,7 +248,7 @@
             var x=i.toString();
             if(document.getElementById(x)!=null)
                 continue;
-            $("body").append("<div id='x' style=\"width:100px0;height:900px;background:url('2233.jpg')\"></div>");
+            $("body").append("<div id='x' style=\"width:100px0;height:900px;background:red\"></div>");
             $("#x").attr('id',x);
             data[0]=treedata[i];
             drawTree(data,x,skill);
